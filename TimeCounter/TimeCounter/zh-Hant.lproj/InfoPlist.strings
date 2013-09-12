@@ -1,0 +1,59 @@
+/* Localized versions of Info.plist keys */
+CFBundleDisplayName = "TimeKeeper";
+"mainTitle" = "小管家";
+"addViewTitle" = "物件";
+/*
+ 新增畫面說明
+ */
+"startDateTime" = "購入日期";
+"endDateTime" = "到期日";
+"pictureCell" = "照片";
+"classCell" = "分類";
+"descriptionCell" = "說明";
+"notifyCell"="到期前提醒";
+/*
+ Camera Sourse 文字
+ */
+"PickPicture"="相機";
+"CameraSource"="請選擇照片來源";
+"TakePicture"="相機";
+"PhotoAlbum"="相薄";
+"CameraNotSupport"="本裝置不支援拍攝照片";
+/*
+ 按鈕文字
+ */
+"Done"="完成";
+"Back"="返回";
+"Close"="關閉";
+"Clear"="清除";
+"Cancel"="取消";
+"Save"="儲存";
+/*
+ 分類 & 描述
+ */
+"category"="分類";
+"content"="描述";
+"None"="未分類";
+"EnterDesc"="請輸入描述";
+"totalDays1"="%i 天, %i 天(未到期)";
+"totalDays2"="%i 天, %i 天(已過期)";
+"totalDays3"="%i 天, (未指定)";
+/*
+ Sort Type
+ */
+"sortCategory"="依類型排列";
+"sortDate"="依日期排列";
+/*
+ 設定畫面
+ */
+"help"="幫助";
+"setting"="設定";
+"aboutus"="關於我";
+"rate"="評分";
+"feedback"="回饋";
+"introduction"="介紹";
+"copyright"="版權宣告";
+"rateus"="給我們評價";
+"tellfriend"="告訴朋友";
+"tellus"="給我們意見";
+"more"="更多應用程式";

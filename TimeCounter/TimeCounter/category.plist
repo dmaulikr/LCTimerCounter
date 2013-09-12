@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>category_tw</key>
+	<array>
+		<string>未分類</string>
+		<string>水果</string>
+		<string>食物</string>
+		<string>衣物</string>
+		<string>3C</string>
+		<string>傢俱</string>
+	</array>
+	<key>category_en</key>
+	<array>
+		<string>None</string>
+		<string>Fruit</string>
+		<string>Food</string>
+		<string>Clothes</string>
+		<string>3C</string>
+		<string>Furniture</string>
+	</array>
+</dict>
+</plist>

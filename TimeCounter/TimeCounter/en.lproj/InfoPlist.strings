@@ -1,0 +1,59 @@
+/* Localized versions of Info.plist keys */
+CFBundleDisplayName = "TimeKeeper";
+"mainTitle" = "HouseKeeper";
+"addViewTitle" = "Object";
+/*
+ 新增畫面說明
+ */
+"startDateTime" = "From";
+"endDateTime" = "To";
+"pictureCell" = "picture";
+"classCell" = "class";
+"descriptionCell" = "description";
+"notifyCell"="Notify";
+/*
+ Camera Sourse 文字
+ */
+"PickPicture"="Camera";
+"CameraSource"="Choose camera source";
+"TakePicture"="Camera";
+"PhotoAlbum"="Library";
+"CameraNotSupport"="device not support";
+/*
+ 按鈕文字
+ */
+"Done"="Done";
+"Back"="Back";
+"Close"="Close";
+"Clear"="Clear";
+"Cancel"="Cancel";
+"Save"="Save";
+/*
+ 分類 & 描述
+ */
+"category"="Category";
+"content"="Content";
+"None"="None";
+"EnterDesc"="Please enter description";
+"totalDays1"="%i 天, %i 天(未到期)";
+"totalDays2"="%i 天, %i 天(已到期)";
+"totalDays3"="%i 天, (未指定)";
+/*
+ Sort Type
+ */
+"sortCategory"="category";
+"sortDate"="date";
+/*
+ 設定畫面
+ */
+"help"="Help";
+"setting"="Setting";
+"aboutus"="About Us";
+"rate"="Rate";
+"feedback"="Feedback";
+"introduction"="Info";
+"copyright"="Copyright";
+"rateus"="Rate Us";
+"tellfriend"="Tell Friend";
+"tellus"="Tell Us";
+"more"="More...";

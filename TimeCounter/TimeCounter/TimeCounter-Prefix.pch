@@ -1,0 +1,55 @@
+//
+// Prefix header for all source files of the 'TimeCounter' target in the 'TimeCounter' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifdef	_DEBUG
+#define	DNSLog(...);	NSLog(__VA_ARGS__);
+#define DNSLogMethod	NSLog(@"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd));
+#define DNSLogPoint(p)	NSLog(@"%f,%f", p.x, p.y);
+#define DNSLogSize(p)	NSLog(@"%f,%f", p.width, p.height);
+#define DNSLogRect(p)	NSLog(@"%f,%f %f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+
+CFAbsoluteTime startTime;
+#define D_START			startTime=CFAbsoluteTimeGetCurrent();
+#define D_END			DNSLog(@"[%s] %@ %f seconds", class_getName([self class]), NSStringFromSelector(_cmd), CFAbsoluteTimeGetCurrent() - startTime );
+#else
+#define DNSLog(...);	// NSLog(__VA_ARGS__);
+#define DNSLogMethod	// NSLog(@"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd) );
+#define DNSLogPoint(p)	// NSLog(@"%f,%f", p.x, p.y);
+#define DNSLogSize(p)	// NSLog(@"%f,%f", p.width, p.height);
+#define DNSLogRect(p)	// NSLog(@"%f,%f %f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+
+#define D_START			// CFAbsoluteTime startTime=CFAbsoluteTimeGetCurrent();
+#define D_END			// DNSLog(@"New %f seconds", CFAbsoluteTimeGetCurrent() - startTime );
+#endif
+
+#define SAFE_FREE(p) { if(p) { free(p); (p)=NULL; } }
+
+//上方NavigationBar上的按鈕背景顏色
+#define navigationBarButtonColor [UIColor colorWithRed:110.0f/255.0f green:110.0f/255.0f blue:110.0f/255.0f alpha:1]
+//下方Toolbar上的按鈕背景顏
+#define toolBarButtonColor [UIColor colorWithRed:110.0f/255.0f green:110.0f/255.0f blue:110.0f/255.0f alpha:1]
+#define navigationBarBackground @"title_og_up.png"
+#define toolbarBackground @"title_og_non.png"
+
+/*
+ 檔案名稱
+ */
+#define timeRecordFileName @"saveRecord"
+/*
+ 設定相關資訊
+ */
+#define sortTypeKey @"sortType"
+#define sortByDate @"sortDate"
+#define sortByCategory @"sortCategory"
