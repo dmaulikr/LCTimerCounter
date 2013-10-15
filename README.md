@@ -1,4 +1,4 @@
-iOS-TimerCounter
+LCTimerCounter
 ================
 
 This is an application using local nofication function to remind you at anytime you setup.
